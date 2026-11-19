@@ -1,0 +1,3 @@
+# Aufgabe 2 – Composite Pattern in Go
+
+Implementiere das Fensterbeispiel aus der Vorlesung als lauffähiges Go-Programm mit dem Composite Pattern. Definiere das Interface `Item` mit `Price()` und `Display()`. `Glass` und `Frame` sind Blätter mit eigenen Preisen. `Window` implementiert ebenfalls `Item` und enthält ein oder mehrere `Item`-Elemente in einem `[]Item`. `Window.Price()` summiert die Preise der Kinder, und `Window.Display()` zeigt die Struktur durch rekursive Aufrufe mit Einrückung an. Erzeuge in `main` ein Fenster mit Rahmen, drei Glasscheiben und einem Teilfenster mit vier Scheiben. Zeige die Struktur und gib den Gesamtpreis aus.
